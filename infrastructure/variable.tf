@@ -1,0 +1,17 @@
+variable "region" {
+
+ default = "us-east-2"
+
+}
+
+variable "instance_type" {
+
+ default = "t3.micro"
+
+}
+
+variable "ami_id" {
+
+ default = "ami-0198cdf7458a7a932"
+
+}
